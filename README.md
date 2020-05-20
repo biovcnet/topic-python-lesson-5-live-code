@@ -13,7 +13,7 @@ The file `assembly_summary_genbank.txt` contains identifiers and the FTP address
 
 If we had a list of unique identifiers linked to genomes we were interested in, we could create a file that has the FTP locations of all the files we are interested in, and download them using the Unix command `wget`.
 
-##Script
+## Script
 
 Provided a list of unique identifiers, create `wget` commands to download the genome files of interest.
 
