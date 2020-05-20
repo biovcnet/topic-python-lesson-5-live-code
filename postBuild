@@ -1,0 +1,13 @@
+#!/bin/bash
+set -eux
+
+# jupyter-offlinenotebook is automatically installed by repo2docker.
+# Uninstall to avoid conflicts
+jupyter labextension uninstall --no-build jupyter-offlinenotebook
+
+# Data for Lesson 2
+#wget https://raw.githubusercontent.com/biovcnet/topic-functional-annotation/master/Lesson-2/Cyanobacteria-TMED155.orfs.faa
+#wget https://raw.githubusercontent.com/biovcnet/topic-functional-annotation/master/Lesson-2/carbon-fixation-markers.faa
+
+#Data for Lesson 3
+#wget https://de.cyverse.org/dl/d/A47FAD90-1837-4868-8896-61231F14F779/genome_canu_filtered.fasta
